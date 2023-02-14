@@ -23,17 +23,53 @@
   height: 160px;
   background-color: #f48c06;
   border-radius: 5px;
-  display: flex;
+  padding: 20px 20px 20px 20px;
 }
 .container-1 {
+  display: flex;
   align-items: flex-end;
   column-gap: 15px;
-  padding: 0px 0px 20px 20px;
 }
-
-.red-box-1 {
+.red-box {
   background-color: #9d0208;
   width: 78px;
-  height: 78px;
   border-radius: 5px;
+}
+.red-box-1 {
+  height: 78px;
+}
+.container-2 {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+.container-3 {
+  display: flex;
+  column-gap: 15px;
+  justify-content: end;
+  align-items: center;
+}
+.red-box-3 {
+  height: 78px;
+}
+
+.container-4 {
+  display: flex;
+  column-gap: 100px;
+}
+.red-box-4 {
+  height: 78px;
+}
+
+.box_4_end {
+  align-self: flex-end;
+}
+.container-5 {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+.box_5_mdl {
+  align-self: center;
+  height: 64px;
 }
