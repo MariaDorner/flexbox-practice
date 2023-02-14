@@ -5,7 +5,7 @@
 .main-container {
   background-color: #370617;
   max-width: 100vw;
-  height: auto;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -72,4 +72,19 @@
 .box_5_mdl {
   align-self: center;
   height: 64px;
+}
+.container-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+.red-box-6 {
+  background-color: #9d0208;
+  height: 78px;
+  border-radius: 5px;
+}
+.box_6_mdl {
+  flex-grow: 0.5;
 }
